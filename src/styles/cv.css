@@ -1,0 +1,51 @@
+.cv {
+    background-color: white;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-height: 100vh;
+}
+
+.cv p {
+    font-weight: 200;
+}
+
+.cvHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: lightblue;
+    padding: 2rem;
+}
+
+.cvInfos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cvInfoP {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cvBody {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.educations,
+.works {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.education,
+.work {
+    display: flex;
+    gap: 3rem;
+}
